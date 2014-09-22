@@ -29,5 +29,10 @@ Getting changes to the subtree:
 
    git subtree pull --prefix src/subtree/ test-subtree master
 
+If the above pull results in an error, try:
+
+   git pull -X subtree=src/subtree test-subtree master
+
+
 
 
