@@ -23,4 +23,11 @@ Explanation syntax:
 
     git subtree add --prefix path/to/destination remote-name branch
 
+Getting changes to the subtree:
+
+   git fetch test-subtree master
+
+   git subtree pull --prefix src/subtree/ test-subtree master
+
+
 
